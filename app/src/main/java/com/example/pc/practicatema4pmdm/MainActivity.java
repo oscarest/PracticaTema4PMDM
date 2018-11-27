@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         intent2 = new Intent(this, DesplazandoImagenes.class);
         intent = new Intent(this, activity_boton1.class);
-       // intent = new Intent(this, activity_boton2.class);
+       intent1 = new Intent(this, activity_boton2.class);
      //   intent = new Intent(this, activity_boton4.class);
       //  estaActivity = this;
         boton=findViewById(R.id.button);
