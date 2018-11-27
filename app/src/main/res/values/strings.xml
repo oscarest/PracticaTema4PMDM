@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">PracticaTema4PMDM</string>
+    <string name="numeros_primos">Números primos</string>
+    <string name="juego_aciertos">Juego de aciertos</string>
+    <string name="desplazando_imagenes">Desplazando imágenes</string>
+    <string name="seleccionar_imagenes">Seleccionando imágenes</string>
+    <string name="app_name3">DesplazandoImagenes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_boton3">boton3Activity</string>
 </resources>
