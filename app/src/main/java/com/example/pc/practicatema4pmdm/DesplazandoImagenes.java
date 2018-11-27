@@ -11,7 +11,7 @@ public class DesplazandoImagenes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_boton3);
         ViewPager viewPager = findViewById(R.id.view_pager);
-        viewPager.setAdapter(new ViewPagerAdapterBoton2(getSupportFragmentManager()));
+        viewPager.setAdapter(new ViewPagerAdapterBoton3(getSupportFragmentManager()));
     }
 
 }

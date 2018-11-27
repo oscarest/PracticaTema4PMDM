@@ -4,10 +4,11 @@
     <string name="juego_aciertos">Juego de aciertos</string>
     <string name="desplazando_imagenes">Desplazando imágenes</string>
     <string name="seleccionar_imagenes">Seleccionando imágenes</string>
-    <string name="app_name3">DesplazandoImagenes</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name3">Desplazando Imágenes</string>
+    <string name="app_name1">Números primos</string>
+    <string name="app_name2">Juego de aciertos</string>
+    <string name="app_name4">Seleccionando imágenes</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_boton3">boton3Activity</string>
     <string name="button">Calcular</string>
     <string name="textview" />
     <string name="numero">Número:</string>

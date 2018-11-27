@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-public class PrimerFragmentBoton2 extends Fragment {
+public class PrimerFragmentBoton3 extends Fragment {
     TextView txtFragment;
     //TextView txtActivity;
 //Button boton;
@@ -16,7 +16,7 @@ public class PrimerFragmentBoton2 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState)
     {
-        View view = inflater.inflate(R.layout.fragment_primer_boton2, container, false);
+        View view = inflater.inflate(R.layout.fragment_primer_boton3, container, false);
         //txtFragment = view.findViewById(R.id.txtFragment);
 
         // boton = view.findViewById(R.id.button);
