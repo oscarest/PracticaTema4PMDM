@@ -8,7 +8,6 @@
     <string name="app_name1">Números primos</string>
     <string name="app_name2">Juego de aciertos</string>
     <string name="app_name4">Seleccionando imágenes</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="button">Calcular</string>
     <string name="textview" />
     <string name="numero">Número:</string>
