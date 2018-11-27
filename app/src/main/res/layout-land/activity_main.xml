@@ -26,6 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
             android:layout_weight="1"
+            android:drawableTop="@drawable/ic_numero"
             android:text="@string/numeros_primos" />
 
         <Button
@@ -34,6 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
+            android:drawableTop="@drawable/ic_acierto"
             android:text="@string/juego_aciertos" />
     </LinearLayout>
 
@@ -50,6 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
             android:layout_weight="1"
+            android:drawableTop="@drawable/ic_pintura"
             android:text="@string/desplazando_imagenes" />
         <Button
             android:id="@+id/button3"
