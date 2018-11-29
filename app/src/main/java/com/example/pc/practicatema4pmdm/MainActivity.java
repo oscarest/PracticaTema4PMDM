@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity
     Button boton;
     Button boton1;
     Button boton2;
+    Button boton3;
     Intent intent2;
     Intent intent;
    Intent intent1;
@@ -24,24 +25,18 @@ public class MainActivity extends AppCompatActivity
         intent2 = new Intent(this, DesplazandoImagenes.class);
         intent = new Intent(this, activity_boton1.class);
        intent1 = new Intent(this, activity_boton2.class);
+       intent3 = new Intent(this, activity_boton4.class);
      //   intent = new Intent(this, activity_boton4.class);
       //  estaActivity = this;
         boton=findViewById(R.id.button);
         boton1=findViewById(R.id.button1);
         boton2 = findViewById(R.id.button2);
+        boton3 = findViewById(R.id.button3);
         boton2.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                openActivity();
-            }
-
-            private void openActivity()
-            {
-                //Botónn 3 del programa
-                //Intent intent = new Intent(estaActivity, DesplazandoImagenes.class);
-                //startActivity(intent);
                 startActivity(intent2);
             }
         });
@@ -61,5 +56,12 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent1);
         }
     });
+       boton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(intent3);
+            }
+        });
+
     }
 }
