@@ -1,26 +1,22 @@
 <resources>
     <string name="app_name">PracticaTema4PMDM</string>
-    <string name="numeros_primos">Números primos</string>
-    <string name="juego_aciertos">Juego de aciertos</string>
-    <string name="desplazando_imagenes">Desplazando imágenes</string>
-    <string name="seleccionar_imagenes">Seleccionando imágenes</string>
     <string name="app_name3">Desplazando Imágenes</string>
     <string name="app_name1">Números primos</string>
     <string name="app_name2">Juego de aciertos</string>
     <string name="app_name4">Seleccionando imágenes</string>
     <string name="button">Calcular</string>
-    <string name="textview" />
+    <string name="textview" translatable="false" />
     <string name="numero">Número:</string>
     <string name="Amapola">Amapola</string>
     <string name="jazmin">Jazmín</string>
     <string name="rosa">Rosa</string>
     <string name="tulipan">Tulipán</string>
-    <string name="pais1">Austria</string>
+    <string name="pais1" translatable="false">Austria</string>
     <string name="pais2">España</string>
-    <string name="pais3">Chad</string>
-    <string name="pais4">China</string>
+    <string name="pais3" translatable="false">Chad</string>
+    <string name="pais4" translatable="false">China</string>
     <string name="pais5">Chipre</string>
-    <string name="pais6">Colombia</string>
+    <string name="pais6" translatable="false">Colombia</string>
     <string name="pais7">Comoras</string>
     <string name="pais8">Grecia</string>
     <string name="pais9">Irak</string>
@@ -29,16 +25,12 @@
     <string name="capital2">Madrid</string>
     <string name="capital3">Yamena</string>
     <string name="capital4">Pekín</string>
-    <string name="capital5">Nicosia</string>
+    <string name="capital5" translatable="false">Nicosia</string>
     <string name="capital6">Bogotá</string>
-    <string name="capital7">Moroni</string>
+    <string name="capital7" translatable="false">Moroni</string>
     <string name="capital8">Atenas</string>
     <string name="capital9">Bagdad</string>
     <string name="capital10">Dublín</string>
-    <string name="acierto">Acierto</string>
-    <string name="error">Error</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="verificar">Verificar</string>
-    <string name="verificarmensaje"></string>
 </resources>

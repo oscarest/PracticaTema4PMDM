@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PracticaTema4PMDM</string>
+    <string name="verificar">Verify</string>
+    <string name="app_name3">Moving images</string>
+    <string name="app_name4">Selecting images</string>
+    <string name="app_name1">Prime numbers</string>
+    <string name="app_name2">Hit game</string>
+    <string name="button">Calculate</string>
+    <string name="numero">Number:</string>
+    <string name="Amapola">Poppy</string>
+    <string name="jazmin">Jasmine</string>
+    <string name="rosa">Rose</string>
+    <string name="tulipan">Tulip</string>
+    <string name="pais2">Spain</string>
+    <string name="pais5" translatable="false">Cyprus</string>
+    <string name="pais7">Comoros</string>
+    <string name="pais8">Greece</string>
+    <string name="pais9">Iraq</string>
+    <string name="pais10">Ireland</string>
+    <string name="capital1">Vienna</string>
+    <string name="capital2">Madrid</string>
+    <string name="capital3">Ndjamena</string>
+    <string name="capital4">Peking</string>
+    <string name="capital6">Bogota</string>
+    <string name="capital8">Athens</string>
+    <string name="capital9">Baghdad</string>
+    <string name="capital10">Dublin</string>
+</resources>

@@ -24,13 +24,13 @@
             android:id="@+id/button"
             style="@style/botonPrincipal"
             android:drawableTop="@drawable/ic_numero"
-            android:text="@string/numeros_primos" />
+            android:text="@string/app_name1" />
 
         <Button
             android:id="@+id/button1"
             style="@style/botonPrincipal"
             android:drawableTop="@drawable/ic_acierto"
-            android:text="@string/juego_aciertos" />
+            android:text="@string/app_name2" />
     </LinearLayout>
 
     <LinearLayout
@@ -44,12 +44,12 @@
             android:id="@+id/button2"
           style="@style/botonPrincipal"
             android:drawableTop="@drawable/ic_pintura"
-            android:text="@string/desplazando_imagenes" />
+            android:text="@string/app_name3" />
 
         <Button
             android:id="@+id/button3"
             style="@style/botonPrincipal"
-            android:text="@string/seleccionar_imagenes"
+            android:text="@string/app_name4"
             android:drawableTop="@drawable/ic_flor"/>
     </LinearLayout>
 </LinearLayout>
