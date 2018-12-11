@@ -35,11 +35,11 @@ public class activity_boton1 extends AppCompatActivity {
                 }
                 if(isPrime==true)
                 {
-                    txtv.setText("El número es primo");
+                    txtv.setText("@string/prime");
                 }
                 else
                 {
-                    txtv.setText("El número no es primo");
+                    txtv.setText("@string/noprime");
                 }
             }
         });

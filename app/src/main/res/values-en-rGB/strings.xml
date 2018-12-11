@@ -30,4 +30,6 @@
     <string name="pais4">China</string>
     <string name="pais6">Colombia</string>
     <string name="capital5">Nicosia</string>
+    <string name="prime">The number is prime</string>
+    <string name="noprime">The number is not prime</string>
 </resources>

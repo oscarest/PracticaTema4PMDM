@@ -30,4 +30,6 @@
     <string name="capital8">Athènes</string>
     <string name="capital9">Bagdad</string>
     <string name="capital10">Dublin</string>
+    <string name="prime">le nombre est premier</string>
+    <string name="noprime">le nombre n\'est pas premier</string>
 </resources>

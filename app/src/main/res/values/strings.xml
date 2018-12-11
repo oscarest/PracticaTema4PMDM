@@ -33,4 +33,6 @@
     <string name="capital10">Dublín</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="verificar">Verificar</string>
+    <string name="prime">El número es primo</string>
+    <string name="noprime">El número no es primo</string>
 </resources>
