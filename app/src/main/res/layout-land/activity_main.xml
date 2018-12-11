@@ -22,19 +22,13 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
-            android:layout_weight="1"
+            style="@style/botonPrincipal"
             android:drawableTop="@drawable/ic_numero"
             android:text="@string/numeros_primos" />
 
         <Button
             android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_weight="1"
+            style="@style/botonPrincipal"
             android:drawableTop="@drawable/ic_acierto"
             android:text="@string/juego_aciertos" />
     </LinearLayout>
@@ -48,18 +42,12 @@
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
-            android:layout_weight="1"
+            style="@style/botonPrincipal"
             android:drawableTop="@drawable/ic_pintura"
             android:text="@string/desplazando_imagenes" />
         <Button
             android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_weight="1"
+            style="@style/botonPrincipal"
             android:text="@string/seleccionar_imagenes"
             android:drawableTop="@drawable/ic_flor"/>/>
     </LinearLayout>
