@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
@@ -32,7 +33,7 @@ public class activity_boton2 extends AppCompatActivity
     RadioButton radio18;
     RadioButton radio19;
     RadioButton radio20;
-    TextView txt;
+    ImageView imagen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -61,54 +62,54 @@ public class activity_boton2 extends AppCompatActivity
         radio18 = findViewById(R.id.radioButton20);
         radio19 = findViewById(R.id.radioButton10);
         radio20 = findViewById(R.id.radioButton19);
-        txt = findViewById(R.id.textView3);
+        imagen= findViewById(R.id.imageView8);
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
             {
             if(radio1.isChecked() && radio2.isChecked())
             {
-            txt.setText(getResources().getString(R.string.acierto));
+                imagen.setImageResource(R.drawable.acierto);
             }
             else if(radio3.isChecked() && radio4.isChecked())
             {
-                txt.setText(getResources().getString(R.string.acierto));
+                imagen.setImageResource(R.drawable.acierto);
             }
             else if(radio5.isChecked() && radio6.isChecked())
             {
-                txt.setText(getResources().getString(R.string.acierto));
+                imagen.setImageResource(R.drawable.acierto);
             }
             else if(radio7.isChecked() && radio8.isChecked())
             {
-                txt.setText(getResources().getString(R.string.acierto));
+                imagen.setImageResource(R.drawable.acierto);
             }
             else if(radio9.isChecked() && radio10.isChecked())
             {
-                txt.setText(getResources().getString(R.string.acierto));
+                imagen.setImageResource(R.drawable.acierto);
             }
             else if(radio11.isChecked() && radio12.isChecked())
             {
-                txt.setText(getResources().getString(R.string.acierto));
+                imagen.setImageResource(R.drawable.acierto);
             }
             else if(radio13.isChecked() && radio14.isChecked())
             {
-                txt.setText(getResources().getString(R.string.acierto));
+                imagen.setImageResource(R.drawable.acierto);
             }
             else if(radio15.isChecked() && radio16.isChecked())
             {
-                txt.setText(getResources().getString(R.string.acierto));
+                imagen.setImageResource(R.drawable.acierto);
             }
             else if(radio17.isChecked() && radio18.isChecked())
             {
-                txt.setText(getResources().getString(R.string.acierto));
+                imagen.setImageResource(R.drawable.acierto);
             }
             else if(radio19.isChecked() && radio20.isChecked())
             {
-                txt.setText(getResources().getString(R.string.acierto));
+                imagen.setImageResource(R.drawable.acierto);
             }
             else
             {
-                txt.setText(getResources().getString(R.string.error));
+                imagen.setImageResource(R.drawable.error);
             }
             }
         });
