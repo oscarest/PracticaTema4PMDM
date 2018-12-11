@@ -11,21 +11,21 @@
     <string name="jazmin">Jazmín</string>
     <string name="rosa">Rosa</string>
     <string name="tulipan">Tulipán</string>
-    <string name="pais1" translatable="false">Austria</string>
+    <string name="pais1">Austria</string>
     <string name="pais2">España</string>
-    <string name="pais3" translatable="false">Chad</string>
-    <string name="pais4" translatable="false">China</string>
+    <string name="pais3">Chad</string>
+    <string name="pais4">China</string>
     <string name="pais5">Chipre</string>
-    <string name="pais6" translatable="false">Colombia</string>
+    <string name="pais6">Colombia</string>
     <string name="pais7">Comoras</string>
     <string name="pais8">Grecia</string>
     <string name="pais9">Irak</string>
     <string name="pais10">Irlanda</string>
     <string name="capital1">Viena</string>
-    <string name="capital2">Madrid</string>
+    <string name="capital2" translatable="false">Madrid</string>
     <string name="capital3">Yamena</string>
     <string name="capital4">Pekín</string>
-    <string name="capital5" translatable="false">Nicosia</string>
+    <string name="capital5">Nicosia</string>
     <string name="capital6">Bogotá</string>
     <string name="capital7" translatable="false">Moroni</string>
     <string name="capital8">Atenas</string>

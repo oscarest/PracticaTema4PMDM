@@ -19,11 +19,15 @@
     <string name="pais9">Iraq</string>
     <string name="pais10">Ireland</string>
     <string name="capital1">Vienna</string>
-    <string name="capital2">Madrid</string>
     <string name="capital3">Ndjamena</string>
     <string name="capital4">Peking</string>
     <string name="capital6">Bogota</string>
     <string name="capital8">Athens</string>
     <string name="capital9">Baghdad</string>
     <string name="capital10">Dublin</string>
+    <string name="pais1">Austria</string>
+    <string name="pais3">Chad</string>
+    <string name="pais4">China</string>
+    <string name="pais6">Colombia</string>
+    <string name="capital5">Nicosia</string>
 </resources>
