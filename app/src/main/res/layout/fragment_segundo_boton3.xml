@@ -11,6 +11,6 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/moto" />
+        android:layout_height="218dp"
+        android:src="@drawable/tren" />
 </FrameLayout>
