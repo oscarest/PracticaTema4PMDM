@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
+                //Botón 3 del programa
                 startActivity(intent2);
             }
         });
@@ -59,6 +60,7 @@ public class MainActivity extends AppCompatActivity
        boton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //Botón 3 del programa
                 startActivity(intent3);
             }
         });
