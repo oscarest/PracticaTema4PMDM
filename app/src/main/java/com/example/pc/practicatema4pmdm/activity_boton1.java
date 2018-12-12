@@ -35,11 +35,11 @@ public class activity_boton1 extends AppCompatActivity {
                 }
                 if(isPrime==true)
                 {
-                    txtv.setText("@string/prime");
+                    txtv.setText(getResources().getString(R.string.prime));
                 }
                 else
                 {
-                    txtv.setText("@string/noprime");
+                    txtv.setText(getResources().getString(R.string.noprime));
                 }
             }
         });
