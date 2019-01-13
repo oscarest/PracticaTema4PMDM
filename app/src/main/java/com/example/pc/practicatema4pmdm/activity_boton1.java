@@ -24,7 +24,8 @@ public class activity_boton1 extends AppCompatActivity {
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(!edit.getText().toString().isEmpty()) {
+                if(!edit.getText().toString().isEmpty())
+                {
                     int numero;
                     numero = Integer.parseInt(edit.getText().toString());
                     isPrime = true;
@@ -42,7 +43,6 @@ public class activity_boton1 extends AppCompatActivity {
                 }
                 else
                 {
-
                 }
             }
         });
