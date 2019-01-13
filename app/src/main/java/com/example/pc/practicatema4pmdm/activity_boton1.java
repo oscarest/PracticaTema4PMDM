@@ -24,22 +24,25 @@ public class activity_boton1 extends AppCompatActivity {
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int numero;
-                numero =Integer.parseInt(edit.getText().toString());
-                isPrime = true;
-                for(int divisor = 2; divisor <= numero / 2; divisor++) {
-                    if (numero % divisor == 0) {
-                        isPrime = false;
-                        break; // num is not a prime, no reason to continue checking
+                if(!edit.getText().toString().isEmpty()) {
+                    int numero;
+                    numero = Integer.parseInt(edit.getText().toString());
+                    isPrime = true;
+                    for (int divisor = 2; divisor <= numero / 2; divisor++) {
+                        if (numero % divisor == 0) {
+                            isPrime = false;
+                            break; // num is not a prime, no reason to continue checking
+                        }
                     }
-                }
-                if(isPrime==true)
-                {
-                    txtv.setText(getResources().getString(R.string.prime));
+                    if (isPrime == true) {
+                        txtv.setText(getResources().getString(R.string.prime));
+                    } else {
+                        txtv.setText(getResources().getString(R.string.noprime));
+                    }
                 }
                 else
                 {
-                    txtv.setText(getResources().getString(R.string.noprime));
+
                 }
             }
         });
