@@ -11,6 +11,6 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
-        android:layout_height="218dp"
-        android:src="@drawable/tren" />
+        android:layout_height="match_parent"
+        android:src="@drawable/pokemon1" />
 </FrameLayout>
