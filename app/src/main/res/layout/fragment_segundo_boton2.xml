@@ -14,6 +14,7 @@
         >
 
         <RadioGroup
+            android:id="@+id/radioGroup2"
             android:layout_width="match_parent"
             android:layout_height="200dp">
 

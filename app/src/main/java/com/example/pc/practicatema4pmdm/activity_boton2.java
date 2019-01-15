@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class activity_boton2 extends AppCompatActivity
@@ -33,6 +34,10 @@ public class activity_boton2 extends AppCompatActivity
     RadioButton radio18;
     RadioButton radio19;
     RadioButton radio20;
+    RadioGroup radioGroup1;
+    RadioGroup radioGroup2;
+    TextView txt1;
+    TextView txt2;
     ImageView imagen;
 
     @Override
@@ -41,6 +46,8 @@ public class activity_boton2 extends AppCompatActivity
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_boton2);
+        txt1 = findViewById(R.id.textView3);
+        txt2 = findViewById(R.id.textView4);
         boton = findViewById(R.id.button10);
         radio1 = findViewById(R.id.radioButton);
         radio2 = findViewById(R.id.radioButton13);
@@ -62,6 +69,98 @@ public class activity_boton2 extends AppCompatActivity
         radio18 = findViewById(R.id.radioButton20);
         radio19 = findViewById(R.id.radioButton10);
         radio20 = findViewById(R.id.radioButton19);
+        radioGroup1 = findViewById(R.id.radioGroup1);
+        radioGroup2 = findViewById(R.id.radioGroup2);
+        radioGroup1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                if(radio1.isChecked())
+                {
+                    txt1.setText(getResources().getString(R.string.pais1));
+                }
+                else if(radio3.isChecked())
+                {
+                    txt1.setText(getResources().getString(R.string.pais2));
+                }
+                else if(radio5.isChecked())
+                {
+                    txt1.setText(getResources().getString(R.string.pais3));
+                }
+                else if(radio7.isChecked())
+                {
+                    txt1.setText(getResources().getString(R.string.pais4));
+                }
+                else if(radio9.isChecked())
+                {
+                    txt1.setText(getResources().getString(R.string.pais5));
+                }
+                else if(radio11.isChecked())
+                {
+                    txt1.setText(getResources().getString(R.string.pais6));
+                }
+                else if(radio13.isChecked())
+                {
+                    txt1.setText(getResources().getString(R.string.pais7));
+                }
+                else if(radio15.isChecked())
+                {
+                    txt1.setText(getResources().getString(R.string.pais8));
+                }
+                else if(radio17.isChecked())
+                {
+                    txt1.setText(getResources().getString(R.string.pais9));
+                }
+                else if(radio19.isChecked())
+                {
+                    txt1.setText(getResources().getString(R.string.pais10));
+                }
+            }
+        });
+        radioGroup2.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                if(radio2.isChecked())
+                {
+                    txt2.setText(getResources().getString(R.string.capital1));
+                }
+                else if(radio4.isChecked())
+                {
+                    txt2.setText(getResources().getString(R.string.capital2));
+                }
+                else if(radio6.isChecked())
+                {
+                    txt2.setText(getResources().getString(R.string.capital3));
+                }
+                else if(radio8.isChecked())
+                {
+                    txt2.setText(getResources().getString(R.string.capital4));
+                }
+                else if(radio10.isChecked())
+                {
+                    txt2.setText(getResources().getString(R.string.capital5));
+                }
+                else if(radio12.isChecked())
+                {
+                    txt2.setText(getResources().getString(R.string.capital6));
+                }
+                else if(radio14.isChecked())
+                {
+                    txt2.setText(getResources().getString(R.string.capital7));
+                }
+                else if(radio16.isChecked())
+                {
+                    txt2.setText(getResources().getString(R.string.capital8));
+                }
+                else if(radio18.isChecked())
+                {
+                    txt2.setText(getResources().getString(R.string.capital9));
+                }
+                else if(radio20.isChecked())
+                {
+                    txt2.setText(getResources().getString(R.string.capital10));
+                }
+            }
+        });
         imagen= findViewById(R.id.imageView8);
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
