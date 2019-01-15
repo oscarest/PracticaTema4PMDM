@@ -7,44 +7,48 @@
     android:orientation="vertical"
     tools:context=".activity_boton4">
 
-    <FrameLayout
-        android:id="@+id/container1"
-        android:layout_width="match_parent"
-        android:layout_height="509dp" />
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="550dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/container1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/button5"
             style="@style/boton2"
+            android:layout_width="110dp"
             android:onClick="onClick"
             android:text="@string/Amapola" />
 
         <Button
             android:id="@+id/button6"
             style="@style/boton3"
+            android:layout_width="110dp"
             android:onClick="onClick1"
             android:text="@string/jazmin" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
 
         <Button
             android:id="@+id/button7"
             style="@style/boton4"
-            android:layout_width="61dp"
+            android:layout_width="110dp"
             android:onClick="onClick2"
             android:text="@string/rosa" />
 
         <Button
             android:id="@+id/button8"
             style="@style/boton4"
+            android:layout_width="120dp"
             android:onClick="onClick3"
             android:text="@string/tulipan" />
     </LinearLayout>
