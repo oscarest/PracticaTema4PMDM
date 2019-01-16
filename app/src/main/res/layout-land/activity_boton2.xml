@@ -17,7 +17,8 @@
             android:id="@+id/fragment"
             android:name="com.example.pc.practicatema4pmdm.primer_boton2"
             android:layout_width="295dp"
-            android:layout_height="180dp" />
+            android:layout_height="180dp"
+             />
 
         <fragment
             android:id="@+id/fragment2"
@@ -36,6 +37,18 @@
             android:id="@+id/button10"
             style="@style/boton1"
             android:text="@string/verificar" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
 
         <ImageView
             android:id="@+id/imageView8"
